@@ -1,0 +1,45 @@
+{
+	"id": "com.karamba.msteams",
+	"version": "1.0.0",
+	"name": "MSTeams widget",
+	"description": "MSTeams chart",
+	"newInstancePrefix": "MSTeams",
+	"icon": "https://sylvainparcollet.github.io/SACgantt/KGantt.png",
+	"vendor": "Karamba",
+	"eula": "EULA",
+	"license": "2.0",
+	"webcomponents": [
+		{
+			"kind": "main",
+			"tag": "com-karamba-msteams",
+			"url": "https://sylvainparcollet.github.io/SACgantt/Kganttwidget.js",
+			"integrity": "",
+			"ignoreIntegrity": true
+		}
+	],
+  	"properties": {
+		"inptask": {
+			"type": "initparam",
+			"description": "initparam",
+			"default": ""
+		}
+   },
+	"methods": {
+		"init": {
+			"description": "initMSTeams.",
+			"parameters": [
+				{
+					"name": "newinitparam",
+					"type": "string",
+					"description": "Dummy parameter"
+				}
+			],
+			"body": "this.initparam = newinitparam;this.inptype = newinptype;this.inpstarttime = newinpstarttime;this.inpendtime = newinpendtime;this.inpdetails = newinpdetails;"
+		}
+	},
+	"events": {
+		"onClick": {
+			"description": "Called when the user clicks the Box."
+		}
+	}
+}
