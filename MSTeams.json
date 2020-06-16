@@ -12,7 +12,7 @@
 		{
 			"kind": "main",
 			"tag": "com-karamba-msteams",
-			"url": "https://sylvainparcollet.github.io/Teams/",
+			"url": "https://sylvainparcollet.github.io/Teams/MSTeamswidget.js",
 			"integrity": "",
 			"ignoreIntegrity": true
 		}
